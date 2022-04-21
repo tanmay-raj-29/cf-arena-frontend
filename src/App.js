@@ -1,8 +1,12 @@
+import Appbar from "./components/layout/Appbar";
+import Problems from "./components/problems/Problems";
+
 function App() {
   return (
-    <div>
-
-    </div>
+    <>
+      <Appbar />
+      <Problems />
+    </>
   );
 }
 
